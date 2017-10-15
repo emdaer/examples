@@ -1,0 +1,16 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "📚 examples of documents and how they're created with emdaer",
+  "repository": "emdaer/examples",
+  "license": "MIT",
+  "scripts": {
+    "emdaer": "emdaer && git add *.md",
+    "precommit": "npm run emdaer"
+  },
+  "devDependencies": {
+    "@emdaer/cli": "^1.0.0-beta.2",
+    "@emdaer/plugin-value-from-package": "^1.0.0-beta.0",
+    "husky": "^0.14.3"
+  }
+}
